@@ -23,7 +23,7 @@ for (day in 1:2000) {
 	Sf<-Sf+delta.Sf
 	Im<-Im+delta.Im
 	If<-If+delta.If
-	Sm<-max(Sm,0) #keep pop positive
+	Sm<-max(Sm,0) #keep population positive
 	Sf<-max(Sf,0)
 	Im<-max(Im,0)
 	If<-max(If,0)
